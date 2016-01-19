@@ -1,0 +1,12 @@
+wget http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-linux-x64.tar.gz?AuthParam=1453210187_a096de569b1e72725ec585be598cd5a9
+
+sudo cp jdk-8u65-linux-x64.tar.gz?AuthParam=1453210187_a096de569b1e72725ec585be598cd5a9 /opt/
+
+cd opt
+
+sudo tar -xvzf jdk-8u65-linux-x64.tar.gz?AuthParam=1453210187_a096de569b1e72725ec585be598cd5a9
+
+sudo ln -s /opt/jdk1.8.0_65/bin/javac  /usr/bin/javac
+
+export JAVA_HOME=/opt/jdk1.8.0_65/bin/java
+

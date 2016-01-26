@@ -11,3 +11,5 @@ sudo tar -xvzf jdk-8u65-linux-x64.tar.gz?AuthParam=1453210187_a096de569b1e72725e
 sudo ln -s /opt/jdk1.8.0_65/bin/javac  /usr/bin/javac
 
 export JAVA_HOME=/opt/jdk1.8.0_65/
+
+HELP : http://askubuntu.com/questions/430434/replace-openjdk-with-oracle-jdk-on-ubuntu
